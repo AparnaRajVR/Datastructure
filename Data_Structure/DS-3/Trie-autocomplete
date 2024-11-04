@@ -63,7 +63,7 @@ class Trie {
     }
     return result;
   }
-
+//--------------longest prefix-----------
  String findLongestCommonPrefix() {
     TrieNode current = root;
     String prefix = '';
@@ -86,7 +86,7 @@ void main() {
    t.insert('bat');
    t.insert('bot');
 
-  //  print(t.autocomplete('c'));
+  print(t.autocomplete('c'));
   print(t.findLongestCommonPrefix());
 
 }
